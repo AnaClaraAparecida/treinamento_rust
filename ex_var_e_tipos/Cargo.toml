@@ -1,0 +1,6 @@
+[package]
+name = "ex_var_e_tipos"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
