@@ -1,20 +1,22 @@
-const TIPO_DE_DADOS:i8 = 2; // -> as constantes sao imutavies 
-static mut UMA_VARIAVEL_ESTATICA: i8 = 3; // -> ja as static, podem ser mutaveis, so colocar o mut logo depois, mas precisa do unsafe
+const TIPO_DE_DADOS: i8 = 2;
+
+static mut UMA_VARIAVEL_ESTATICA: i8 = 3;
 
 fn main() {
-    unsafe{ // -> ele serve para fazer mudanças somente de Static, pois as costantes sao imutaveis, mesmo que haja formaçao mut na static, é necessario que tenha o unsafe
+    unsafe {
         UMA_VARIAVEL_ESTATICA = 4;
+        let valor = UMA_VARIAVEL_ESTATICA; // copia o valor
         println!("Constante: {}", TIPO_DE_DADOS);
-        println!("Statica: {}", UMA_VARIAVEL_ESTATICA);
+        println!("Estática: {}", valor);
     }
     imprime();
 }
 
 fn imprime() {
-    unsafe{
-        UMA_VARIAVEL_ESTATICA = 4;
+    unsafe {
+        UMA_VARIAVEL_ESTATICA = 5;
+        let valor = UMA_VARIAVEL_ESTATICA; // copia o valor
         println!("Constante: {}", TIPO_DE_DADOS);
-        println!("Statica: {}", UMA_VARIAVEL_ESTATICA);
+        println!("Estática: {}", valor);
     }
-
 }

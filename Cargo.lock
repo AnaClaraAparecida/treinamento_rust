@@ -3,5 +3,21 @@
 version = 4
 
 [[package]]
-name = "treinamento_rust"
+name = "ex_var_e_tipos"
+version = "0.1.0"
+
+[[package]]
+name = "shadowing"
+version = "0.1.0"
+
+[[package]]
+name = "tipos_de_dados"
+version = "0.1.0"
+
+[[package]]
+name = "variaveis_const"
+version = "0.1.0"
+
+[[package]]
+name = "variaveis_mut"
 version = "0.1.0"
