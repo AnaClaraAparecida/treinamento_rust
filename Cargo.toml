@@ -1,6 +1,8 @@
-[package]
-name = "treinamento_rust"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
+[workspace]
+members = [
+    "ex_var_e_tipos",
+    "shadowing",
+    "tipos_de_dados",
+    "variaveis_const",
+    "variaveis_mut"
+]
