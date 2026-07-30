@@ -1,8 +1,9 @@
 [workspace]
 members = [
+    "contr_de_fluxo",
     "ex_var_e_tipos",
     "shadowing",
     "tipos_de_dados",
     "variaveis_const",
-    "variaveis_mut"
+    "variaveis_mut",
 ]
