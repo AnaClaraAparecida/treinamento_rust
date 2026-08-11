@@ -19,6 +19,8 @@ fn main() {
     if mes_nsc > mes_atual {
         idade -= 1;
     }
-    
+    else if dia_nsc > dia_atual {
+        idade -= 1;
+    }
     println!("a idade da {}, calculada para o ano de {}, é {} anos", nome, ano_nsc, idade);
 }

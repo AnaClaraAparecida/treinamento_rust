@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "contr_de_fluxo",
+    "contr_de_fluxo", "estr_condic", "ex_tab",
     "ex_var_e_tipos",
     "shadowing",
     "tipos_de_dados",
