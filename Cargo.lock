@@ -7,7 +7,15 @@ name = "contr_de_fluxo"
 version = "0.1.0"
 
 [[package]]
-name = "loop"
+name = "desafio_cod"
+version = "0.1.0"
+
+[[package]]
+name = "estr_condic"
+version = "0.1.0"
+
+[[package]]
+name = "ex_tab"
 version = "0.1.0"
 
 [[package]]

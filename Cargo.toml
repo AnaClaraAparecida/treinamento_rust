@@ -1,7 +1,10 @@
 [workspace]
 members = [
-    "contr_de_fluxo", "estr_condic", "ex_tab",
+    "contr_de_fluxo",
+    "desafio_cod",
+    "ex_tab",
     "ex_var_e_tipos",
+    "loop",
     "shadowing",
     "tipos_de_dados",
     "variaveis_const",
