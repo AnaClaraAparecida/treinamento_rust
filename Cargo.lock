@@ -3,6 +3,14 @@
 version = 4
 
 [[package]]
+name = "arrays_vec"
+version = "0.1.0"
+
+[[package]]
+name = "borrowing"
+version = "0.1.0"
+
+[[package]]
 name = "contr_de_fluxo"
 version = "0.1.0"
 
@@ -11,7 +19,15 @@ name = "desafio_cod"
 version = "0.1.0"
 
 [[package]]
+name = "desreferenciacao"
+version = "0.1.0"
+
+[[package]]
 name = "estr_condic"
+version = "0.1.0"
+
+[[package]]
+name = "ex_funcoes"
 version = "0.1.0"
 
 [[package]]
@@ -23,11 +39,39 @@ name = "ex_var_e_tipos"
 version = "0.1.0"
 
 [[package]]
+name = "funcoes"
+version = "0.1.0"
+
+[[package]]
+name = "operadores"
+version = "0.1.0"
+
+[[package]]
+name = "ownership"
+version = "0.1.0"
+
+[[package]]
+name = "reborrowing"
+version = "0.1.0"
+
+[[package]]
 name = "shadowing"
 version = "0.1.0"
 
 [[package]]
+name = "static_stack_heap"
+version = "0.1.0"
+
+[[package]]
+name = "strings"
+version = "0.1.0"
+
+[[package]]
 name = "tipos_de_dados"
+version = "0.1.0"
+
+[[package]]
+name = "tuplas"
 version = "0.1.0"
 
 [[package]]
