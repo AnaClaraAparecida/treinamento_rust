@@ -3,7 +3,7 @@ members = [
     "contr_de_fluxo",
     "desafio_cod",
     "ex_tab",
-    "ex_var_e_tipos",
+    "ex_var_e_tipos", "fundamentos_rust/arrays_vec", "fundamentos_rust/borrowing", "fundamentos_rust/desreferenciacao", "fundamentos_rust/ex_funcoes", "fundamentos_rust/funçoes", "fundamentos_rust/operadores", "fundamentos_rust/ownership", "fundamentos_rust/reborrowing", "fundamentos_rust/static_stack_heap", "fundamentos_rust/strings", "fundamentos_rust/tuplas",
     "loop",
     "shadowing",
     "tipos_de_dados",
